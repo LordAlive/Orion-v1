@@ -1,7 +1,8 @@
-#[derive(Debug,clone)]
-enum Instruction{
+
+#[derive(Debug,Clone)]
+pub enum Instruction{
     PUSH(usize),
-    POP,
+    // POP,
     MSTORE,
     MLOAD,
     SSTORE,
@@ -11,5 +12,6 @@ enum Instruction{
     MUL,
     DIV,
     HALT,
-    DESTRUCT
+    DESTRUCT,
+    PRINT
 }

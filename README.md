@@ -1,1 +1,1 @@
-## Welcome to Orion virtual meachine - V1
+## Welcome to Orion virtual machine - V1
