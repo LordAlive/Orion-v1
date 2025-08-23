@@ -14,7 +14,7 @@ impl GasMeter {
         if self.used > self.limit {
             Err(VMError::GasExhausted)
         } else {
-            self.used += self.limit;
+            self.used += amount;
             Ok(())
         }
     }

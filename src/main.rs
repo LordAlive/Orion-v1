@@ -12,5 +12,5 @@ fn main() -> VMResult<()> {
         vec![I::PUSH(5), I::PUSH(10), I::ADD, I::PRINT, I::HALT]
     };
 
-    VM::with_gas_limit(program, 10_000).run()
+    VM::with_gas_limit(program, 10_000_000).run()
 }
